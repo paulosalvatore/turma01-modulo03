@@ -49,12 +49,12 @@ function calcularDano() {
     const danoTotal = danoDados + danoArma;
     const vidaPersonagem = vidaPorPersonagem[personagemSelecionado];
 
-    let resultado = 'Dano: ' + danoTotal + '!';
+    let resultado = 'Dano: ' + danoTotal + '! ';
 
     if (danoTotal >= vidaPersonagem) {
-        resultado += ' Parabéns você matou ' + personagemSelecionado;
+        resultado += 'Parabéns, você matou ' + personagemSelecionado;
     } else {
-        resultado += ' Putz, não foi dessa vez, tente novamente!';
+        resultado += 'Putz, não foi dessa vez, tente novamente!';
     }
 
     document.getElementById('dano').innerHTML = resultado;

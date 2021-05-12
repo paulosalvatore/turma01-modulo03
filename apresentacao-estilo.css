@@ -1,0 +1,45 @@
+.titulo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.titulo-turma-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.conteudo-turma-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+.conteudo-turma-item {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.agenda {
+    background-color: yellow;
+    flex-grow: 1;
+}
+.presenca {
+    background-color: rgb(240, 89, 195);
+    flex-grow: 1;
+}
+.presenca table th,td {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}

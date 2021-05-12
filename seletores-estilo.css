@@ -1,0 +1,13 @@
+body {
+    background-color: blue;
+}
+
+.titulo {
+    font-weight: bold;
+    color: white;
+}
+
+#nome {
+    font-weight: bold;
+    color: yellow;
+}

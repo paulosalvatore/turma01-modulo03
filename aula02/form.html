@@ -1,0 +1,73 @@
+<!--
+    Estrutura da aula
+    1 - Explicar a tag form
+    2 - Mostrar os diferentes tipos de input
+    3 - Explicar pq o atributo name é importante
+    4 - Explicar o checkbox e o radio button
+    5 - Falar que vamos fazer um formulário de cadastro e que sem o label não faz sentido
+    6 - Explicar o label (primeiro sem o for e depois com o for)
+    7 - Mostrar o component select com option
+    8 - Mostrar o component select com optgroup
+    9 - Mostrar o input submit (explicar action, http method, voltar ao slide aqui)
+    10 - Mostrar a opção disabled e placeholder
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Forms</h1>
+        
+        <p>Formulário de cadastro</p>
+        <form action="" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" disabled/>
+            <br/><br/>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Sua senha vem aqui"/>
+            <br/><br/>
+            
+            Fumante? 
+            <label for="sim">Sim</label><input type="radio" name="fumante" id="sim" value="sim"/> 
+            <label for="nao">Não</label><input type="radio" name="fumante" id="nao" value="nao"/>
+            <br/><br/>
+            
+            Hobbies:
+            <label for="futebol">Ver Futebol</label><input type="checkbox" name="hobbies" id="futebol" value="futebol"/>
+            <label for="musica">Ouvir Música</label><input type="checkbox" name="hobbies" id="musica" value="musica"/>
+            <label for="outros">Outros</label><input type="checkbox" name="hobbies" id="outros" value="outros"/>
+            <br/><br/>
+            
+            <label for="nascimento">Data Nascimento:</label><input type="date" id="nascimento" name="nascimento"/>
+            <br/><br/>
+
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" name="cidade">
+                <option></option>
+                <option>Rio de Janeiro</option>
+                <option>Curitiba</option>
+                <option>Salvador</option>
+            </select>
+
+            <br/><br/>
+            <label for="cidade2">Cidade2:</label>
+            <select id="cidade2" name="cidade2">
+                <option></option>
+                <optgroup label="Sul">
+                    <option>Curitiba</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                    <option>Rio de Janeiro</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option>Salvador</option>
+                </optgroup>
+            </select>
+
+            <br/><br/>
+            <input type="submit" value="Cadastrar"/>
+        </form>
+    </body>
+</html>

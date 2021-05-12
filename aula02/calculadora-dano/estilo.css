@@ -1,0 +1,53 @@
+.calculadora-dano {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: lightgray; 
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.elemento {
+    cursor: pointer;
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selecionado {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dano {
+    font-size: medium;
+    font-weight: bold;
+}

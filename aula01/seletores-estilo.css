@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: #3359EC;
 }
 
 .titulo {
@@ -9,5 +9,5 @@ body {
 
 #nome {
     font-weight: bold;
-    color: yellow;
+    color: #FFE921;
 }

@@ -1,9 +1,9 @@
 .calculadora-dano {
     margin-left: 20%;
     margin-right: 20%;
-    border: 1px solid black;
+    border: 1px solid #878787;
     border-radius: 20px;
-    background-color: lightgray; 
+    background-color: #F8F8F8;
 }
 
 .linha-container {
